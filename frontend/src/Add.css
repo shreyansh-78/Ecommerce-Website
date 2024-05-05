@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* > * {
+  font-family: "Poppins", cursive;
+  margin: 0;
+}
+
+.form3 {
+  background: #56154b;
+  background: -webkit-linear-gradient(to right, #724365, #893779, #56154b);
+  background: linear-gradient(to right, #724365, #893779, #56154b);
+}
+
+.form3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.add {
+  max-width: 978px;
+  width: 100vw;
+  display: flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.add span {
+  color: #adb5bd;
+}
+
+#Add {
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#Add > input,
+.bn {
+  border: 1px solid #e9ecef;
+  padding: 0.9em 1em;
+}
+
+#Add > input:focus {
+  outline: none;
+}
+
+#Add > .btn {
+  background-color: #531515;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.add .col-1 {
+  margin: auto;
+  padding: 3em 0;
+}
+
+.add .col-2 img {
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+@media screen and (min-width: 860px) {
+  .add .col-2 img {
+    display: initial;
+  }
+}
